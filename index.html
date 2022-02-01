@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link rel="icon" href="img/icon.png" type="Google" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
+
+    <title>Clon de Google</title>
+</head>
+
+    <!--
+    title con el nombre  de "Clon de Google"
+    <header>, <main> y <footer>. 
+    La parte  principal (Logo, caja de texto y botones) dividida en section
+    el logo debe tener como id "logo" y los botones de búsqueda ("Buscar con google"  y "Me siento con suerte") deben  ser links en forma de botón, ambos botones tienen el id "search" y "lucky" respectivamente. La caja de texto  debe tener su propio id "input-search". Por ultimo en le pie de la pagina deben contener los mismos links que el google original todos ellos con la clase "footer-link".
+
+   Requerimientos técnicos
+    --Tener title con nombre 'Clon Google
+    -Tener un header con dos a y dos img
+    --Usar la etiqueta main
+    --Deben existir al menos dos section
+    --img con #logo asociado al logo de google
+    Botones de búsqueda deben ser a con #search y #lucky ademas tener .btn-search
+    --Debe existir input de búsqueda #input-search
+    Debe existir footer con links idénticos a google original
+    body no tiene margenes y tiene fuente ROBOTO
+    input tiene :hover
+    botones tienen :hover 
+    -->
+
+<body>
+    <nav class="navbar">
+            <a href="#">Gmail</a>
+            <a href="#">Imágenes</a>
+            <a href="#"><img src="img/cuadro.png" alt="Google Apps"></a>
+            <a href="#"><i class='bx bx-user-circle'></i></a>
+    </nav>
+
+    <main>
+        <section>
+                <img id="logo" src="img/maingoogle.png" alt="Google">
+        </section>
+            <div class="">
+                <div><i class='bx bx-search search' ></i></div>
+                <input id="input-search" type="text"/>
+            </div>
+        <section>
+            <a id="search" href="#">Buscar con Google</a>
+            <a id="lucky" href="#">Me siento con suerte</a>
+        </section>
+        
+        <p>Ofrecido por Google en: <a href="#">Español (Latinoamérica)</a></p>
+
+    </main>
+    
+    <footer>
+        <div>México</div>
+        
+        <div>
+            <p>Sobre Google</p>
+            <p>Publicidad</p>
+            <p>Negocios</p>
+            <p>Cómo funciona la Búsqueda</p>
+
+            <p>Privacidad</p>
+            <p>Condiciones</p>
+            <p>Preferencias</p>
+        </div>
+    </footer>
+</body>
+</html>
