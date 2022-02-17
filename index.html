@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
     <link rel="icon" href="img/icon.png" type="Google" />
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css" />    
 
-    <title>Clon de Google</title>
+    <title>Google</title>
 </head>
 
     <!--
@@ -33,43 +34,31 @@
     -->
 
 <body>
-    <nav class="navbar">
-            <a href="#">Gmail</a>
-            <a href="#">Imágenes</a>
-            <a href="#"><img src="img/cuadro.png" alt="Google Apps"></a>
-            <a href="#"><i class='bx bx-user-circle'></i></a>
-    </nav>
-
+    <header>
+        <a href="#"><img src="../google/img/cuadro.png" alt="Google Apps"></a>
+        <a href="#"><img src="../google/img/icon.png" alt="Cuenta de Google"></a>
+    </header>
     <main>
         <section>
-                <img id="logo" src="img/maingoogle.png" alt="Google">
+            <img id="logo" src="../google/img/maingoogle.png" alt="Google">
         </section>
-            <div class="">
-                <div><i class='bx bx-search search' ></i></div>
-                <input id="input-search" type="text"/>
-            </div>
         <section>
-            <a id="search" href="#">Buscar con Google</a>
-            <a id="lucky" href="#">Me siento con suerte</a>
+            <input id="input-search" type="text"/>
         </section>
-        
-        <p>Ofrecido por Google en: <a href="#">Español (Latinoamérica)</a></p>
-
+        <section class="btn-search">
+            <button id="search">Buscar con Google</button>
+            <button id="lucky">Me siento con suerte</button>
+        </section>
     </main>
-    
     <footer>
-        <div>México</div>
-        
-        <div>
-            <p>Sobre Google</p>
-            <p>Publicidad</p>
-            <p>Negocios</p>
-            <p>Cómo funciona la Búsqueda</p>
+        <a href="#">Sobre Google</a>
+        <a href="#">Publicidad</a>
+        <a href="#">Negocios</a>
+        <a href="#">Cómo funciona la Búsqueda</a>
 
-            <p>Privacidad</p>
-            <p>Condiciones</p>
-            <p>Preferencias</p>
-        </div>
+        <a href="#">Privacidad</a>
+        <a href="#">Condiciones</a>
+        <a href="#">Preferencias</a>
     </footer>
 </body>
 </html>
